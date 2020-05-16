@@ -1,0 +1,23 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+nav {
+  height: 200px; // Fixed height
+  overflow-y: scroll;
+  width: 100%;
+  border-right: none;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  overflow-y: scroll;
+}
+
+footer {
+  width: 100%;
+}

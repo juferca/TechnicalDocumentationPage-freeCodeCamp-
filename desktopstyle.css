@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media(min-width: 700px) {
+  body {
+    display: flex;
+  }
+
+  nav {
+    background-color: #eee;
+    max-width: 300px;
+    height: 100vh;
+    border-right: 1px solid #777;
+  }
+
+  nav header {
+    padding: 15px;
+  }
+
+  nav a {
+    color: #000;
+    display: block;
+    padding: 15px;
+    border-top: 1px solid #777;
+    text-decoration: none;
+  }
+
+  main {
+    background-color: orange;
+    /* flex: 1; */
+    height: 100vh;
+    overflow-y: scroll;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  header {
+    font-size: 24px;
+    font-weight: 500;
+  }
+
+  p {
+    padding: 15px 0;
+  }
+
+  ul {
+    padding: 20px 25px;
+  }
+
+  pre {
+    background-color: #eee;
+  }
+
+  footer {
+    background-color: green;
+    width: 100%;
+    display: none;
+
+  }
+
+
+}
+
+/* Styling begins at 16:26 - 22:51 ==> then on/off
+MUTES at 50:48 - 53:48  */
